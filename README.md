@@ -1,8 +1,8 @@
 # PHYS220 CW 13 
 
-**Author(s):** **CHANGEME**
+**Author(s):** **Dain, Quinn, Andrew**
 
-[![Build Status](https://travis-ci.org/chapman-phys220-2017f/cw-13-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-phys220-2017f/cw-13-YOURNAME)
+[![Build Status](https://travis-ci.org/chapman-phys220-2017f/cw-13-cw-10-dain-quinn-andrew.svg?branch=master)](https://travis-ci.org/chapman-phys220-2017f/cw-13-cw-10-dain-quinn-andrew)
 
 ## Specification
 
@@ -49,13 +49,12 @@ plt.show()
 
 As written, this will use ```numpy``` in a vectorized way as we have been using in class so far. Run the code and note how long the timed portions take. Then uncomment the ```@nb``` lines to enable ```numba```. Rerun the code and compare the results of the timings. (The ```@nb``` lines are called "decorators" and modify the subsequent function definitions to add functionality, in this case just-in-time compilation via ```numba```.)
 
-* Copy your CW12 into this repository and modify your code to use ```numba```. Are you able to speed up the run time of your Runge-Kutta integration? Speculate why or why not.
+* Copy your CW12 into this repository and modify your code to use ```numba```. Are you able to speed up the run time of your Runge-Kutta integration? Speculate why or why not. Yes, we were able to because it is able to compile and run all at once rather than being interpreted. 
 
 ## Assessment
 
-Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
+This assignment showed us that numba is a useful way to streamline python code. It makes laborious modules possible to run on python in a reasonable time. 
 
-**CHANGEME**
 
 ## Honor Pledge
 
@@ -66,4 +65,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+**Dain Miller, Quinn Gates, Andrew Papilion**
